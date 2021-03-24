@@ -1,0 +1,5 @@
+{% if template.name == 'collection' %}
+  		<link rel="canonical" href="{{shop.url}}/collections/{{collection.handle}}">
+ 	{% else %}
+		<link rel="canonical" href="{{ canonical_url }}">
+   {% endif %}
